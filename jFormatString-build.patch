@@ -1,0 +1,14 @@
+diff -dur jformatstring.ORIG/jFormatString/build.xml jformatstring/jFormatString/build.xml
+--- jformatstring.ORIG/jFormatString/build.xml	2008-10-15 23:22:04.000000000 -0600
++++ jformatstring/jFormatString/build.xml	2008-12-09 11:02:19.000000000 -0700
+@@ -2,9 +2,7 @@
+ <project name="jFormatString" default="build">
+ 
+ 
+-<path id="compileClasspath">
+-                <fileset dir="lib"/>
+-    </path>
++<path id="compileClasspath" path="/usr/share/java/junit4.jar"/>
+ 
+ 	<target name="build" depends="clean,jarFile"/>
+ 
