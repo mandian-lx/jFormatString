@@ -9,7 +9,7 @@ Version:        0
 Release:        0.24.20131227git%{shortcommit}%{?dist}
 Summary:        Java format string compile-time checker
 
-Group:          Development/Libraries
+Group:          Development/Java
 License:        GPLv2 with exceptions
 URL:            http://code.google.com/p/j-format-string/
 
@@ -31,7 +31,6 @@ format string will be erroneous when executed at runtime.
 
 %package javadoc
 Summary:        Javadoc documentation for %{name}
-Group:          Documentation
 Requires:       java-javadoc
 
 %description javadoc
