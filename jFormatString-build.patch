@@ -1,0 +1,12 @@
+diff --git a/build.xml b/build.xml
+index 8334226..51930c5 100644
+--- a/build.xml
++++ b/build.xml
+@@ -18,7 +18,6 @@
+ 		<javac destdir="build/classes" source="1.5" target="1.5" debug="on"
+ 			includeantruntime="false">
+ 			<src path="src/java" />
+-			<src path="src/junit" />
+ 			<classpath>
+ 				<pathelement location="build/classes" />
+ 			</classpath>
